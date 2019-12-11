@@ -32,6 +32,12 @@ public class Browser {
 				System.out.println(t);
 			System.out.println(res);
 			}	
+			else if(res>=200) {
+				System.out.println(t);
+				System.out.println(res);
+			
+			}
+			}	
 		Thread.sleep(2000);
 		}
 
@@ -39,4 +45,4 @@ public class Browser {
 			}
 		
 	}
-}
+
